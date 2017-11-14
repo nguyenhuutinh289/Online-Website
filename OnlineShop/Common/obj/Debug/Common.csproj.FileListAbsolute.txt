@@ -1,0 +1,5 @@
+C:\Users\USER\Desktop\đồ án\OnlineShop\OnlineShop\OnlineShop\Common\bin\Debug\Common.dll
+C:\Users\USER\Desktop\đồ án\OnlineShop\OnlineShop\OnlineShop\Common\bin\Debug\Common.pdb
+C:\Users\USER\Desktop\đồ án\OnlineShop\OnlineShop\OnlineShop\Common\obj\Debug\Common.dll
+C:\Users\USER\Desktop\đồ án\OnlineShop\OnlineShop\OnlineShop\Common\obj\Debug\Common.pdb
+C:\Users\USER\Desktop\đồ án\OnlineShop\OnlineShop\OnlineShop\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
