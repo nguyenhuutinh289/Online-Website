@@ -56,8 +56,8 @@ namespace OnlineShop.Areas.Admin.Controllers
                     product.Description = product.Name;
                     product.MoreImages = ("<Images></Images>").ToString();
                     product.CreatedDate = DateTime.Now;
-                    var session = (Common.UserLogin)Session[OnlineShop.Common.CommonConstants.USER_SESSION];
-                    product.CreatedBy = session.UserName;
+                    //var session = (Common.UserLogin)Session[OnlineShop.Common.CommonConstants.USER_SESSION];
+                    //product.CreatedBy = session.UserName;
                     product.MetaKeywords = product.MetaTitle;
                     product.MetaDescriptions = product.MetaTitle;
                     product.TopHot = DateTime.Now;
@@ -65,7 +65,6 @@ namespace OnlineShop.Areas.Admin.Controllers
                     long id = dao.Insert(product);
                     if (id > 0)
                     {
-
                         SetAlert("Thêm sản phẩm thành công", "success");
                         return RedirectToAction("Create", "Product");
                     }
@@ -98,8 +97,8 @@ namespace OnlineShop.Areas.Admin.Controllers
                 var dao = new ProductDao();
                 product.MetaTitle = CommonConstants.convertToUnSign3(product.Name);
                 product.Description = product.Name;
-                var session = (Common.UserLogin)Session[OnlineShop.Common.CommonConstants.USER_SESSION];
-                product.ModifiedBy = session.UserName;
+                //var session = (Common.UserLogin)Session[OnlineShop.Common.CommonConstants.USER_SESSION];
+                //product.ModifiedBy = session.UserName;
                 product.MetaKeywords = product.MetaTitle;
                 product.MetaDescriptions = product.MetaTitle;
                 product.TopHot = DateTime.Now;
@@ -118,7 +117,7 @@ namespace OnlineShop.Areas.Admin.Controllers
             return View("Select");
         }
 
-
+        
         [HttpDelete] // xoa san pham
         public ActionResult Delete(int id)
         {
