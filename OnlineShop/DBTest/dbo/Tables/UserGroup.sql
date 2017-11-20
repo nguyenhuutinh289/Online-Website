@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[UserGroup] (
+    [ID]   VARCHAR (20)  NOT NULL,
+    [Name] NVARCHAR (50) NULL,
+    CONSTRAINT [PK_UserGroup] PRIMARY KEY CLUSTERED ([ID] ASC)
+);
+

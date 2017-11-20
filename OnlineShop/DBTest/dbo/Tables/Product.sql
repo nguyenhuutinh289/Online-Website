@@ -1,0 +1,27 @@
+﻿CREATE TABLE [dbo].[Product] (
+    [ID]               BIGINT         IDENTITY (1, 1) NOT NULL,
+    [Name]             NVARCHAR (250) NULL,
+    [Code]             VARCHAR (10)   NULL,
+    [MetaTitle]        VARCHAR (250)  NULL,
+    [Description]      NVARCHAR (500) NULL,
+    [Image]            NVARCHAR (250) NULL,
+    [MoreImages]       XML            NULL,
+    [Price]            DECIMAL (18)   CONSTRAINT [DF_Product_Price] DEFAULT ((0)) NULL,
+    [PromotionPrice]   DECIMAL (18)   NULL,
+    [IncludedVAT]      BIT            NULL,
+    [Quantity]         INT            CONSTRAINT [DF_Product_Quantity] DEFAULT ((0)) NOT NULL,
+    [CategoryID]       BIGINT         NULL,
+    [Detail]           NTEXT          NULL,
+    [Warranty]         INT            NULL,
+    [CreatedDate]      DATETIME       CONSTRAINT [DF_Product_CreatedDate] DEFAULT (getdate()) NULL,
+    [CreatedBy]        VARCHAR (50)   NULL,
+    [ModifiedDate]     DATETIME       NULL,
+    [ModifiedBy]       VARCHAR (50)   NULL,
+    [MetaKeywords]     NVARCHAR (250) NULL,
+    [MetaDescriptions] NCHAR (250)    NULL,
+    [Status]           BIT            CONSTRAINT [DF_Product_Status] DEFAULT ((1)) NULL,
+    [TopHot]           DATETIME       NULL,
+    [ViewCount]        INT            CONSTRAINT [DF_Product_ViewCount] DEFAULT ((0)) NULL,
+    CONSTRAINT [PK_Product] PRIMARY KEY CLUSTERED ([ID] ASC)
+);
+

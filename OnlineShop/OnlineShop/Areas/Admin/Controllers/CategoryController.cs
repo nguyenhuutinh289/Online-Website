@@ -26,6 +26,7 @@ namespace OnlineShop.Areas.Admin.Controllers
         {
             var dao = new CategoryDao();
             var model = dao.ListAllPaging(searchString, page, pageSize);
+            //ViewData["SearchString"] = searchString;
             ViewBag.SearchString = searchString;
             return View(model);
 
@@ -48,8 +49,8 @@ namespace OnlineShop.Areas.Admin.Controllers
             {
                 //var currentCulture = Session[CommonConstants.CurrentCulture];
                 //    model.Language = currentCulture.ToString();
-                var session = (Common.UserLogin)Session[OnlineShop.Common.CommonConstants.USER_SESSION];
-                model.CreatedBy = session.UserName;
+                //var session = (Common.UserLogin)Session[OnlineShop.Common.CommonConstants.USER_SESSION];
+                //model.CreatedBy = session.UserName;
                 model.CreatedDate = DateTime.Now;
                 var id = new CategoryDao().Insert(model);
                 if (id > 0)

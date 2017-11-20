@@ -3,3 +3,8 @@ C:\Users\USER\Desktop\đồ án\OnlineShop\OnlineShop\OnlineShop\Common\bin\Rele
 C:\Users\USER\Desktop\đồ án\OnlineShop\OnlineShop\OnlineShop\Common\obj\Release\Common.csprojResolveAssemblyReference.cache
 C:\Users\USER\Desktop\đồ án\OnlineShop\OnlineShop\OnlineShop\Common\obj\Release\Common.dll
 C:\Users\USER\Desktop\đồ án\OnlineShop\OnlineShop\OnlineShop\Common\obj\Release\Common.pdb
+D:\New\OnlineWebsite-MonKiemThu-\OnlineShop\Common\bin\Release\Common.dll
+D:\New\OnlineWebsite-MonKiemThu-\OnlineShop\Common\bin\Release\Common.pdb
+D:\New\OnlineWebsite-MonKiemThu-\OnlineShop\Common\obj\Release\Common.csprojResolveAssemblyReference.cache
+D:\New\OnlineWebsite-MonKiemThu-\OnlineShop\Common\obj\Release\Common.dll
+D:\New\OnlineWebsite-MonKiemThu-\OnlineShop\Common\obj\Release\Common.pdb

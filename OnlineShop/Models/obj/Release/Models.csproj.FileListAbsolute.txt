@@ -22,3 +22,27 @@ C:\Users\USER\Desktop\đồ án\OnlineShop\OnlineShop\OnlineShop\Models\bin\Rele
 C:\Users\USER\Desktop\đồ án\OnlineShop\OnlineShop\OnlineShop\Models\obj\Release\Models.csprojResolveAssemblyReference.cache
 C:\Users\USER\Desktop\đồ án\OnlineShop\OnlineShop\OnlineShop\Models\obj\Release\Models.dll
 C:\Users\USER\Desktop\đồ án\OnlineShop\OnlineShop\OnlineShop\Models\obj\Release\Models.pdb
+D:\New\OnlineWebsite-MonKiemThu-\OnlineShop\Models\bin\Release\Models.dll.config
+D:\New\OnlineWebsite-MonKiemThu-\OnlineShop\Models\bin\Release\Models.dll
+D:\New\OnlineWebsite-MonKiemThu-\OnlineShop\Models\bin\Release\Models.pdb
+D:\New\OnlineWebsite-MonKiemThu-\OnlineShop\Models\bin\Release\Common.dll
+D:\New\OnlineWebsite-MonKiemThu-\OnlineShop\Models\bin\Release\EntityFramework.dll
+D:\New\OnlineWebsite-MonKiemThu-\OnlineShop\Models\bin\Release\EntityFramework.SqlServer.dll
+D:\New\OnlineWebsite-MonKiemThu-\OnlineShop\Models\bin\Release\PagedList.dll
+D:\New\OnlineWebsite-MonKiemThu-\OnlineShop\Models\bin\Release\PagedList.Mvc.dll
+D:\New\OnlineWebsite-MonKiemThu-\OnlineShop\Models\bin\Release\System.Web.WebPages.dll
+D:\New\OnlineWebsite-MonKiemThu-\OnlineShop\Models\bin\Release\Microsoft.Web.Infrastructure.dll
+D:\New\OnlineWebsite-MonKiemThu-\OnlineShop\Models\bin\Release\System.Web.Razor.dll
+D:\New\OnlineWebsite-MonKiemThu-\OnlineShop\Models\bin\Release\System.Web.WebPages.Deployment.dll
+D:\New\OnlineWebsite-MonKiemThu-\OnlineShop\Models\bin\Release\Common.pdb
+D:\New\OnlineWebsite-MonKiemThu-\OnlineShop\Models\bin\Release\EntityFramework.xml
+D:\New\OnlineWebsite-MonKiemThu-\OnlineShop\Models\bin\Release\EntityFramework.SqlServer.xml
+D:\New\OnlineWebsite-MonKiemThu-\OnlineShop\Models\bin\Release\PagedList.xml
+D:\New\OnlineWebsite-MonKiemThu-\OnlineShop\Models\bin\Release\PagedList.Mvc.xml
+D:\New\OnlineWebsite-MonKiemThu-\OnlineShop\Models\bin\Release\System.Web.WebPages.xml
+D:\New\OnlineWebsite-MonKiemThu-\OnlineShop\Models\bin\Release\Microsoft.Web.Infrastructure.xml
+D:\New\OnlineWebsite-MonKiemThu-\OnlineShop\Models\bin\Release\System.Web.Razor.xml
+D:\New\OnlineWebsite-MonKiemThu-\OnlineShop\Models\bin\Release\System.Web.WebPages.Deployment.xml
+D:\New\OnlineWebsite-MonKiemThu-\OnlineShop\Models\obj\Release\Models.csprojResolveAssemblyReference.cache
+D:\New\OnlineWebsite-MonKiemThu-\OnlineShop\Models\obj\Release\Models.dll
+D:\New\OnlineWebsite-MonKiemThu-\OnlineShop\Models\obj\Release\Models.pdb

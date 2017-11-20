@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[Role] (
+    [ID]   VARCHAR (50)  NOT NULL,
+    [Name] NVARCHAR (50) NULL,
+    CONSTRAINT [PK_Role] PRIMARY KEY CLUSTERED ([ID] ASC)
+);
+
