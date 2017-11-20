@@ -58,6 +58,47 @@ namespace Models.DAO
             }
         }
 
+        public int Login(User test, string userName, string passWord, bool isLoginAdmin = true)
+        {
+            //  var result = db.Users.SingleOrDefault(x => x.UserName == userName);
+
+            User result = test;
+
+            if (result.UserName != userName)
+                return 0;
+            else
+            {
+                if (isLoginAdmin == true)
+                {
+                    if (result.GroupID == CommonConstants.ADMIN_GROUP)
+                    {
+                        if (result.Status == false)
+                            return -1;
+                        else
+                        {
+                            if (result.Password == passWord)
+                                return 1;
+                            else
+                                return -2;
+                        }
+                    }
+                    else
+                        return -3;
+                }
+                else
+                {
+                    if (result.Status == false)
+                        return -1;
+                    else
+                    {
+                        if (result.Password == passWord)
+                            return 1;
+                        else
+                            return -2;
+                    }
+                }
+            }
+        }
 
         public long Insert(User entity)
         {

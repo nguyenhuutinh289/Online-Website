@@ -84,6 +84,41 @@ namespace OnlineShop.Areas.Admin.Controllers
         }
 
         [HttpPost]
+        public ActionResult CreateTest(User user)
+        {
+            if (user.UserName == null)
+            {
+                SetAlert("Tên tài khoản bắt buộc", "error");
+                return View("Create");
+            }
+            else if (user.Password == null)
+            {
+                SetAlert("Mật khẩu bắt buộc", "error");
+                return View("Create");
+            }
+            else if (ModelState.IsValid)
+            {
+                // var dao = new UserDao();
+                //user.Password = Encryptor.MD5Hash(user.Password);
+                //user.GroupID = "ADMIN";
+                //var session = (Common.UserLogin)Session[OnlineShop.Common.CommonConstants.USER_SESSION];
+                //user.CreatedBy = session.UserName;
+                //user.CreatedDate = DateTime.Now;
+                long id = 1;//dao.Insert(user);
+                if (id > 0)
+                {
+                    SetAlert("Thêm tài khoản thành công", "success");
+                    return RedirectToAction("Select", "User");
+                }
+                else
+                {
+                    ModelState.AddModelError("", "Thêm tài khoản không thành công");
+                }
+            }
+            return View("Create");
+        }
+
+        [HttpPost]
         public ActionResult Edit(User user)
         {
             if (ModelState.IsValid)

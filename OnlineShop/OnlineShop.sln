@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineShop", "OnlineShop\OnlineShop.csproj", "{EC372EDB-C6D0-40C1-89DB-AAD305FEDEC8}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{87CA31B7-706F-41BB-BC54-5320BDF0E802}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineShop_ProductTest", "OnlineShop_ProductTest\OnlineShop_ProductTest.csproj", "{66B0EACA-240A-4F6F-8A64-6CD24FB40F8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestOnlineShop_Login", "TestOnlineShop_Login\TestOnlineShop_Login.csproj", "{C243F817-0612-48DA-B501-FBA11EFCB447}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{66B0EACA-240A-4F6F-8A64-6CD24FB40F8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66B0EACA-240A-4F6F-8A64-6CD24FB40F8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66B0EACA-240A-4F6F-8A64-6CD24FB40F8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C243F817-0612-48DA-B501-FBA11EFCB447}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C243F817-0612-48DA-B501-FBA11EFCB447}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C243F817-0612-48DA-B501-FBA11EFCB447}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C243F817-0612-48DA-B501-FBA11EFCB447}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

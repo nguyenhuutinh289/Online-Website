@@ -53,5 +53,22 @@
         public string ModifiedBy { get; set; }
 
         public bool Status { get; set; }
+
+        public User()
+        {
+
+        }
+        public User(string userName, string passWord)
+        {
+            this.UserName = userName;
+            this.Password = passWord;
+        }
+        public User(string userName, string passWord, string groupID, bool status)
+        {
+            this.UserName = userName;
+            this.Password = passWord;
+            this.GroupID = groupID;
+            this.Status = status;
+        }
     }
 }

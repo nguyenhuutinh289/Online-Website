@@ -159,7 +159,7 @@ namespace OnlineShop.Controllers
                 new MailHelper().SendMail(email, "Đơn hàng mới từ OnlineShop", content);
                 new MailHelper().SendMail(toEmail, "Đơn hàng mới từ OnlineShop", content);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 //return Redirect("/loi-thanh-toan");
               //  throw ex;
